@@ -1,3 +1,4 @@
 function f() {
-    HtMl.
-}
+    alert("a");
+    console.log( Document.getElementById("id").namespaceURI);
+    }
