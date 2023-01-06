@@ -23,13 +23,13 @@
     ]
 
     var mapdataResult=mapdata.map(function (finish) {
-      return {test:mapdata.userNum}
+        return {test:mapdata.userNum}
     })
 
     console.log(mapdataResult);
 
     var result=userList.map(function (fulldata) {
-    return {view:fulldata.age}
+        return {view:fulldata.age}
     });
 
     console.log(result)
