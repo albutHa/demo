@@ -13,7 +13,7 @@
 <script>
     var name=["회원이름","비밀번호"];
 
-    document.getElementById("div").innerHTML=txt
+    document.getElementById("div").innerHTML=name
 
 </script>
 <form action="test">
