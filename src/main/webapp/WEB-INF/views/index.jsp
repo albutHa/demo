@@ -10,6 +10,7 @@
 <body>
 
 <div id="div">hi</div>
+<div id="div1"></div>
 <script>
     var name=["회원이름","비밀번호","페스워드를 입력해주세요"];
     var userList=[
@@ -48,11 +49,15 @@
     })
     console.log(practiceresult)
     console.table(practiceresult)
+    function text(){
 
+        var txt=document.getElementById("name").value;
+        document.getElementById("div1").innerHTML=txt
+    }
 </script>
-<form action="test">
-    <input type="text" id="name">
-
+<form action="/">
+    <input type="text" name="name" id="name" onclick="text()">
+    <input type="submit" value="확인">
 </form>
 </body>
 </html>
